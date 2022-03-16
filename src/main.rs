@@ -4,7 +4,6 @@ use rand::Rng;
 use colored::{self, Colorize};
 
 fn main() {
-
     let mut rng = rand::thread_rng();
     let secret_number = rng.gen_range(1..101);
 
@@ -35,6 +34,4 @@ fn main() {
             }
         }
     }
-
 }
-
